@@ -1,0 +1,172 @@
+* {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+.videoBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video {
+    filter: brightness(0.8);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background: linear-gradient(#001f3f,
+            #003366,
+            #000428);
+    min-width: 450px;
+    min-height: 650px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 7px 8px 50px #000;
+}
+
+.app h1 {
+    display: flex;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header span {
+    color: goldenrod;
+    display: flex;
+    clear: both;
+    margin-bottom: 20px;
+
+}
+
+.inputs {
+    color: white;
+    background: rgb(19, 18, 18);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: hidden;
+    margin-left: 10px;
+}
+
+.inputs:focus {
+    outline: none;
+
+}
+
+.btn {
+    background: linear-gradient(#001f3f, #0f4f8f, #001f3f);
+    color: white;
+    font-weight: 600;
+}
+
+
+.listItems {
+    margin-top: 10px;
+    border-bottom: 2px solid #66c6da;
+    width: 90%;
+    position: relative;
+    padding-bottom: 10px;
+
+}
+
+.todolist li {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    text-wrap: wrap;
+}
+
+.buttons {
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    justify-content: flex-end;
+    margin-left: 60%;
+    justify-self: flex-end;
+}
+
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+.list:focus {
+    outline: none;
+}
+
+.complete {
+    color: sandybrown;
+    background: none;
+    text-decoration: line-through;
+
+}
+
+
+.done {
+    color: mediumseagreen;
+    background: none;
+}
+
+.edit {
+    color: rgb(139, 139, 39);
+    background: none;
+
+}
+
+.delete {
+    color: crimson;
+    background: none;
+}
+
+.edit:hover,
+.edit:active,
+.edit:focus {
+    border: none;
+    outline: none;
+}
+
+.delete:hover,
+.delete:active,
+.delete:focus {
+    border: none;
+    outline: none;
+}
+
+.done:hover,
+.done:active,
+.done:focus {
+    border: none;
+    outline: none;
+}
