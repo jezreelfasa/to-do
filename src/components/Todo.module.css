@@ -63,6 +63,7 @@ form {
 }
 
 .inputs {
+    width: 58%;
     color: white;
     background: rgb(19, 18, 18);
     padding: 10px;
@@ -119,6 +120,7 @@ form {
     background: none;
     border: none;
     font-size: 18px;
+    color: white;
 }
 
 .list:focus {
