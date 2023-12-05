@@ -25,9 +25,6 @@ function App() {
         <source src={Video} type="video/mp4" />
       </video>
     </><div className={styles.container}>
-
-
-
         <div className={styles.app}>
 
           <div>

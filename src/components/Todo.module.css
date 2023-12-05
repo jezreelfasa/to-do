@@ -60,7 +60,6 @@ form {
     display: flex;
     clear: both;
     margin-bottom: 20px;
-
 }
 
 .inputs {
@@ -169,4 +168,102 @@ form {
 .done:focus {
     border: none;
     outline: none;
+}
+
+
+
+/*Responsiveness*/
+
+@media screen and (min-width: 345px) {
+    body {
+        overflow: hidden;
+    }
+
+    .app {
+        min-width: 72px;
+        min-height: 550px;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .inputs {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .btn {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .app h1 {
+        font-size: 30px;
+    }
+
+    .header span {
+        font-size: 11px;
+    }
+
+    .listItems {
+        width: 90%;
+    }
+
+    .buttons {
+        font-size: 3px;
+        margin-left: 60%;
+    }
+
+    .list {
+        font-size: 15px;
+        margin-right: 100px;
+    }
+}
+
+
+
+@media screen and (min-width: 720px) {
+
+    .app {
+        min-width: 400px;
+        min-height: 600px;
+    }
+
+    .container {
+        width: 40px;
+    }
+
+    .inputs {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 17px;
+    }
+
+    .app h1 {
+        font-size: 40px;
+    }
+
+    .header span {
+        font-size: 15px;
+    }
+
+    .listItems {
+        width: 90%;
+    }
+
+    .buttons {
+        font-size: 3px;
+        margin-left: 75%;
+    }
+
+    .list {
+        font-size: 18px;
+    }
+
+
+
+
 }
