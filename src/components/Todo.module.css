@@ -218,6 +218,7 @@ form {
     .list {
         font-size: 15px;
         margin-right: 100px;
+        color: white;
     }
 }
 
@@ -261,6 +262,7 @@ form {
 
     .list {
         font-size: 18px;
+        color: white;
     }
 
 
